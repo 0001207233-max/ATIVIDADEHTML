@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;}
+        body{
+            font-family: 'Franklin Gothic Medium', Arial;
+            color:antiquewhite
+        }
+        header{
+            background-color: brown;
+            padding: 20px;
+
+        }
+         nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            background-color:rgb(85, 18, 18);
+        }
+
+        nav ul li {
+            margin: 10px;
+        }
+
+        nav ul li a {
+            color:antiquewhite;
+            text-decoration: none;
+        }
+</style>
+<body>
+  <header>
+ <h1>TechNews Brasil</h1>
+ <h2>Sua principal fonte de notícias sobre o mundo da tecnologia</h2>
+ <nav>
+    <ul>
+        <li><a href="home.html">HOME |</a> </li>
+        <li><a href="games.html">GAMES |</a> </li>
+        <li><a href="tecnologia.html">TECNOLOGIA |</a> </li>
+        <li><a href="contato.html">CONTATO |</a> </li>  
+    </ul>
+ </nav>
+  </header>  
+    
+</body>
+</html>
